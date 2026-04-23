@@ -1,0 +1,36 @@
+**Title: House Price Prediction using Linear Regression**
+
+**Objective:**
+The objective of this project is to implement a Linear Regression model to predict house prices based on features such as square footage, number of bedrooms, and number of bathrooms.
+
+**Tools & Technologies Used:**
+
+* Python
+* NumPy
+* Pandas
+* Matplotlib
+* Scikit-learn
+
+**Algorithm Used:**
+Linear Regression
+
+**Description:**
+In this project, a simple dataset was created containing house features like square footage, number of bedrooms, bathrooms, and corresponding prices.
+The dataset was used to train a Linear Regression model from the Scikit-learn library.
+
+The model learns the relationship between input features (independent variables) and house price (dependent variable). After training, the model predicts the price of a new house based on given inputs.
+
+**Steps Involved:**
+
+1. Import required libraries
+2. Create dataset
+3. Split features (X) and target (y)
+4. Train Linear Regression model
+5. Predict house price
+6. Visualize results using a graph
+
+**Output:**
+The model successfully predicts house prices based on input values. A scatter plot is used to visualize the relationship between square footage and price.
+
+**Conclusion:**
+Linear Regression is a simple and effective algorithm for predicting continuous values like house prices. This project demonstrates basic machine learning workflow including data preparation, model training, and prediction.
